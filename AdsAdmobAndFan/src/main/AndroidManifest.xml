@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adsadmobandfan">
+    <application>
+        <activity android:name=".ads.AdsActivity"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

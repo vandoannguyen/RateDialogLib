@@ -1,0 +1,4 @@
+include ':ratedialog'
+include ':AdsAdmobAndFan'
+include ':app'
+rootProject.name = "AdsLib"
